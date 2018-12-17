@@ -1,3 +1,16 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
     background-color: white;
+    padding: 45px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #5e779f;
 }

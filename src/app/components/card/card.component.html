@@ -1,6 +1,6 @@
 <div class="card">
-  <img [src]="'../../../assets/icons/' + card.img" />
-  <span>{{card.title}}</span>
-  <p>{{card.description}}</p>
-  <span>${{card.price}}/month</span>
+  <img [src]="'../../../assets/icons/' + card.img" /><br/>
+  <span class="title">{{card.title}}</span>
+  <p class="description">{{card.description}}</p>
+  <span class="price"><sup>$</sup><strong class="value">{{card.price}}</strong><sub>/month</sub></span>
 </div>
