@@ -1,24 +1,32 @@
 .card {
     width: 200px;
     text-align: center;
-    padding: 0 25px;
+    padding: 0 44px;
 
     img {
-        width: 50px;
-        margin-bottom: 20px;
+        width: 70px;
+        margin-bottom: 33px;
     }
 
     .title {
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 600;
         color: #5572d6;
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 3px;
+    }
+    .description {
+        margin: 18px 0 20px 0;
     }
     .price {
         color: #5572d6;
         .value {
-            font-size: 20px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        sup, sub {
+            font-weight: 500;
+            font-size: 100%;
         }
     }
 }
